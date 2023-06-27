@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, Welcome to DontSearch.com, How can i help you today?',
+        message: 'Hi, How can i help you today?',
         type: 'apiMessage',
       },
     ],
@@ -125,7 +125,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-           Dont Search
+           Jasmin
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -224,7 +224,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'Ask me anything about DontSearch...'
+                        : 'Ask me anything about IM Academy..'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -261,7 +261,7 @@ export default function Home() {
           </main>
         </div>
         <footer className="m-auto p-4">
-          
+
         </footer>
       </Layout>
     </>
